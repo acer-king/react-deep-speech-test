@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/react-deep-speech-test/precache-manifest.d5711fc1d493bb8b0be48331b0626a69.js"
+  "/react-deep-speech-test/precache-manifest.4b18aa19dbaa0d0bf4e85b6f2645b260.js"
 );
 
 self.addEventListener('message', (event) => {
