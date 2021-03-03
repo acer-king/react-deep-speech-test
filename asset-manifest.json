@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-deep-speech-test/static/css/main.9a13c7fb.chunk.css",
+    "main.js": "/react-deep-speech-test/static/js/main.b71f67c2.chunk.js",
+    "main.js.map": "/react-deep-speech-test/static/js/main.b71f67c2.chunk.js.map",
+    "runtime-main.js": "/react-deep-speech-test/static/js/runtime-main.37fa1e16.js",
+    "runtime-main.js.map": "/react-deep-speech-test/static/js/runtime-main.37fa1e16.js.map",
+    "static/js/2.e9728b9c.chunk.js": "/react-deep-speech-test/static/js/2.e9728b9c.chunk.js",
+    "static/js/2.e9728b9c.chunk.js.map": "/react-deep-speech-test/static/js/2.e9728b9c.chunk.js.map",
+    "index.html": "/react-deep-speech-test/index.html",
+    "precache-manifest.d5711fc1d493bb8b0be48331b0626a69.js": "/react-deep-speech-test/precache-manifest.d5711fc1d493bb8b0be48331b0626a69.js",
+    "service-worker.js": "/react-deep-speech-test/service-worker.js",
+    "static/css/main.9a13c7fb.chunk.css.map": "/react-deep-speech-test/static/css/main.9a13c7fb.chunk.css.map",
+    "static/js/2.e9728b9c.chunk.js.LICENSE.txt": "/react-deep-speech-test/static/js/2.e9728b9c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.37fa1e16.js",
+    "static/js/2.e9728b9c.chunk.js",
+    "static/css/main.9a13c7fb.chunk.css",
+    "static/js/main.b71f67c2.chunk.js"
+  ]
+}
