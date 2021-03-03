@@ -19,7 +19,7 @@ import MicOffIcon from '@material-ui/icons/MicOff';
 //setting default MediaRecorder to OpusMediaRecorder
 window.MediaRecorder = window.OpusMediaRecorder;
 const api_prod = 'https://www.deeplanguagesync.com/api/v1/getVoice'
-// Non-standard options for opus media recorder
+
 const workerOptions = {
     OggOpusEncoderWasmPath: 'https://cdn.jsdelivr.net/npm/opus-media-recorder@latest/OggOpusEncoder.wasm',
     WebMOpusEncoderWasmPath: 'https://cdn.jsdelivr.net/npm/opus-media-recorder@latest/WebMOpusEncoder.wasm'
