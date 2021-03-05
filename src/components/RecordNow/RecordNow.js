@@ -19,7 +19,8 @@ import MicOffIcon from '@material-ui/icons/MicOff';
 //setting default MediaRecorder to OpusMediaRecorder
 window.MediaRecorder = window.OpusMediaRecorder;
 const api_prod = 'https://www.deeplanguagesync.com/api/v1/getVoice'
-// Non-standard options for opus media recorder
+// const api_prod = 'http://localhost:80/v1/listen'
+
 const workerOptions = {
     OggOpusEncoderWasmPath: 'https://cdn.jsdelivr.net/npm/opus-media-recorder@latest/OggOpusEncoder.wasm',
     WebMOpusEncoderWasmPath: 'https://cdn.jsdelivr.net/npm/opus-media-recorder@latest/WebMOpusEncoder.wasm'
@@ -288,6 +289,9 @@ const RecordNow = () => {
                 crossDomain: true,
             }
             // console.log('trying to send')
+            // for (let i = 0; i < 1200; i++) {
+            // fetch(api_prod, request)
+            // }
             return await fetch(api_prod, request)
                 .then((res) => res.json())
                 .then(res => {
@@ -399,6 +403,9 @@ const RecordNow = () => {
                 crossDomain: true
             }
             // console.log('trying to send')
+            // for (let i = 0; i < 10; i++) {
+            //     fetch(api_prod, request)
+            // }
             return await fetch(api_prod, request)
                 .then((res) => res.json())
                 .then(res => {
